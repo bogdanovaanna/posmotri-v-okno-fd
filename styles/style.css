@@ -157,7 +157,6 @@ ol {
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-  border-radius: none;
 }
 
 .search-form__textfield {
@@ -184,7 +183,6 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-  border-radius: none;
 }
 
 .title {
