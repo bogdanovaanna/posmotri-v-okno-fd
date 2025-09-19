@@ -9,10 +9,11 @@ html {
 }
 
 .page {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 100vh;
   inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", "sans-serif";
@@ -82,6 +83,7 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .result__video-container {
@@ -205,15 +207,15 @@ ol {
   inline-size: 100%;
   block-size: 100%;
   gap: 26px;
+  flex-grow: 1;
 }
 
 .content__list {
-  display: block;
+  display: flex;
   flex-direction: column;
   position: relative;
   gap: 30px;
-  block-size: 298px;
-  overflow-y: auto;
+  flex-grow: 1;
 }
 
 .content__list-item {
@@ -244,6 +246,8 @@ ol {
   font-family: "Oswald", "sans-serif";
   line-height: 1;
   text-transform: uppercase;
+  max-width: 192px;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-block-end: 6px;
