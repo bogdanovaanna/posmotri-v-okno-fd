@@ -12,7 +12,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 100vh;
+  min-block-size: 800px;
   inline-size: 1200px;
   margin: auto;
   color: #fff;
@@ -90,7 +90,6 @@ ol {
   position: relative;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 16px;
 }
 
 .search-form {
@@ -220,10 +219,6 @@ ol {
 
 .content__list-item {
   padding: 0 3px;
-}
-
-.content__list-item:not(:last-of-type) {
-  margin-block-end: 30px;
 }
 
 .content__list-container {
