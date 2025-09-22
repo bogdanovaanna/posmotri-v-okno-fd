@@ -12,9 +12,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 800px;
-  inline-size: 1200px;
-  margin: auto;
+  min-block-size: 100vh;
+  inline-size: 100%;
+  margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", "sans-serif";
   font-size: 18px;
